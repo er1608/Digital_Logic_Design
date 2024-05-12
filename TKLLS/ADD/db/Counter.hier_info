@@ -1,0 +1,131 @@
+|Counter
+Q3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst4.CLK
+CLK => inst5.CLK
+CLK => inst6.CLK
+CLK => inst7.CLK
+Load => mx:inst14.S
+Load => mx:inst13.S
+Load => mx:inst12.S
+Load => mx:inst11.S
+I2 => mx:inst13.D1
+I1 => mx:inst12.D1
+I0 => mx:inst11.D1
+I3 => mx:inst14.D1
+Q2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|mx:inst14
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|A:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst5.IN0
+A => inst6.IN0
+A => inst1.IN0
+A => inst10.IN0
+B => inst8.IN0
+B => inst5.IN1
+B => inst4.IN1
+B => inst10.IN1
+B => inst15.IN0
+Cin => inst3.IN2
+Cin => inst5.IN2
+Cin => inst9.IN0
+Cin => inst1.IN1
+Cin => inst15.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|A:inst2
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst5.IN0
+A => inst6.IN0
+A => inst1.IN0
+A => inst10.IN0
+B => inst8.IN0
+B => inst5.IN1
+B => inst4.IN1
+B => inst10.IN1
+B => inst15.IN0
+Cin => inst3.IN2
+Cin => inst5.IN2
+Cin => inst9.IN0
+Cin => inst1.IN1
+Cin => inst15.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|mx:inst13
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|A:inst1
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst5.IN0
+A => inst6.IN0
+A => inst1.IN0
+A => inst10.IN0
+B => inst8.IN0
+B => inst5.IN1
+B => inst4.IN1
+B => inst10.IN1
+B => inst15.IN0
+Cin => inst3.IN2
+Cin => inst5.IN2
+Cin => inst9.IN0
+Cin => inst1.IN1
+Cin => inst15.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|mx:inst12
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|A:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst5.IN0
+A => inst6.IN0
+A => inst1.IN0
+A => inst10.IN0
+B => inst8.IN0
+B => inst5.IN1
+B => inst4.IN1
+B => inst10.IN1
+B => inst15.IN0
+Cin => inst3.IN2
+Cin => inst5.IN2
+Cin => inst9.IN0
+Cin => inst1.IN1
+Cin => inst15.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|mx:inst11
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+

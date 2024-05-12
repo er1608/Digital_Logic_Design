@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="LAB4">
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|REGOUT:inst11|BUSMUX:inst20|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst17|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst15|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst24|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst18|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst16|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|BUSMUX:inst|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst19|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst17|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst12|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|lpm_mux0:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_joc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst18|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst9|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst13|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|lpm_mux0:inst1|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_joc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst19|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst20|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|lpm_mux2:inst1|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_rmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst14|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst12|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst21|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst15|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst13|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst22|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|Register_File:inst3|REGISTER:inst11|BUSMUX:inst16|lpm_mux:$00000" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst14|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB4|Datapath:inst4|shiftl:inst12|lpm_mux1:inst23|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_omc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

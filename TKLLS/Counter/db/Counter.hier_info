@@ -1,0 +1,221 @@
+|Counter
+OC <= HAS:inst3.Carry
+In => HAS:inst3.In
+In => HAS:inst75.In
+In => HAS:inst1.In
+In => HAS:inst2.In
+In => HAS:inst17.In
+In => HAS:inst76.In
+In => HAS:inst15.In
+In => HAS:inst16.In
+E => HAS:inst16.E
+pin_name1 => inst21.ACLR
+pin_name1 => inst20.ACLR
+pin_name1 => inst19.ACLR
+pin_name1 => inst18.ACLR
+pin_name1 => inst7.ACLR
+pin_name1 => inst6.ACLR
+pin_name1 => inst5.ACLR
+pin_name1 => inst4.ACLR
+CLK => inst21.CLK
+CLK => inst20.CLK
+CLK => inst19.CLK
+CLK => inst18.CLK
+CLK => inst7.CLK
+CLK => inst6.CLK
+CLK => inst5.CLK
+CLK => inst4.CLK
+Load => mx:inst25.S
+Load => mx:inst26.S
+Load => mx:inst27.S
+Load => mx:inst28.S
+Load => mx:inst11.S
+Load => mx:inst12.S
+Load => mx:inst13.S
+Load => mx:inst14.S
+I2 => mx:inst25.D1
+I3 => mx:inst26.D1
+I4 => mx:inst27.D1
+I5 => mx:inst28.D1
+I6 => mx:inst11.D1
+I7 => mx:inst12.D1
+I8 => mx:inst13.D1
+I9 => mx:inst14.D1
+Q9 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Q8 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q7 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q6 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q5 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+Q4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst3
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst75
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst1
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst2
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst17
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst76
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst15
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|HAS:inst16
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst39.IN0
+E => inst33.IN1
+E => inst3.IN1
+Qn => inst39.IN1
+In => inst39.IN2
+In => inst4.IN0
+Q => inst33.IN0
+Q => inst3.IN0
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|mx:inst25
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst26
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst27
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst28
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst11
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst12
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst13
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Counter|mx:inst14
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+

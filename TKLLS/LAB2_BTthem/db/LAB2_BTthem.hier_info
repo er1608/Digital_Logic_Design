@@ -1,0 +1,47 @@
+|LAB2_BTthem
+O <= IntegratedCircuit:inst20.O
+A => IntegratedCircuit:inst20.A
+B => IntegratedCircuit:inst20.B
+C => IntegratedCircuit:inst20.C
+D => IntegratedCircuit:inst20.D
+Reset => inst.ACLR
+Reset => inst1.ACLR
+Reset => inst2.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+
+
+|LAB2_BTthem|IntegratedCircuit:inst20
+D2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+B => inst4.IN0
+B => inst17.IN1
+C => inst8.IN2
+C => inst7.IN2
+C => inst9.IN2
+C => inst5.IN0
+C => inst23.IN2
+D => inst8.IN3
+D => inst6.IN0
+D => inst17.IN3
+D => inst20.IN3
+D => inst23.IN3
+Q2 => inst91.IN0
+Q2 => inst15.IN0
+Q2 => inst14.IN0
+Q2 => inst21.IN0
+Q2 => inst24.IN0
+Q1 => inst91.IN1
+Q1 => inst13.IN0
+Q1 => inst18.IN1
+Q1 => inst21.IN1
+Q1 => inst24.IN1
+Q0 => inst12.IN0
+Q0 => inst15.IN2
+Q0 => inst24.IN2
+D1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+O <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+
+

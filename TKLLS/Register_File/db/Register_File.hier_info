@@ -1,0 +1,100 @@
+|Register_File
+DATA <= MUX4bit:inst2.DATA
+RE => MUX4bit:inst2.RE
+AR1 => MUX4bit:inst2.AR1
+AR1 => 2_4WE:inst3.AR1
+AR0 => MUX4bit:inst2.AR0
+AR0 => 2_4WE:inst3.AR0
+WE => 2_4WE:inst3.WE
+I3 => REGISTER:inst.I3
+I2 => REGISTER:inst.I2
+I1 => REGISTER:inst.I1
+I0 => REGISTER:inst.I0
+CLK => REGISTER:inst.CLK
+
+
+|Register_File|MUX4bit:inst2
+DATA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+AR0 => inst.IN0
+AR0 => inst9.IN1
+AR0 => inst8.IN3
+AR1 => inst1.IN0
+AR1 => inst10.IN1
+AR1 => inst9.IN0
+O0 => inst7.IN2
+RE => inst7.IN3
+RE => inst10.IN3
+RE => inst9.IN3
+RE => inst8.IN0
+Q2 => inst10.IN2
+Q3 => inst9.IN2
+Q1 => inst8.IN2
+
+
+|Register_File|REGISTER:inst
+O3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst3.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+Load3 => mx:inst4.S
+I3 => mx:inst4.D1
+O2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Load2 => mx:inst5.S
+I2 => mx:inst5.D1
+O1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Load1 => mx:inst6.S
+I1 => mx:inst6.D1
+O0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Load0 => mx:inst7.S
+I0 => mx:inst7.D1
+
+
+|Register_File|REGISTER:inst|mx:inst4
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Register_File|REGISTER:inst|mx:inst5
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Register_File|REGISTER:inst|mx:inst6
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Register_File|REGISTER:inst|mx:inst7
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|Register_File|2_4WE:inst3
+L3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+WE => inst3.IN0
+WE => inst2.IN0
+WE => inst1.IN0
+WE => inst.IN0
+AR1 => inst25.IN0
+AR1 => inst1.IN1
+AR1 => inst.IN1
+AR0 => inst26.IN0
+AR0 => inst2.IN2
+AR0 => inst.IN2
+L2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+L1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+L0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

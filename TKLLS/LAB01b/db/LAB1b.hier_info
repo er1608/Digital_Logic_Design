@@ -1,0 +1,42 @@
+|LAB1b
+Q3 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst16.CLK
+CLK => inst5.CLK
+CLK => inst6.CLK
+CLK => inst7.CLK
+I3 => inst15.IN0
+Q2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+I0 => mux:inst23.D1
+LOAD => mux:inst23.Load
+LOAD => mux:inst22.Load
+LOAD => mux:inst21.Load
+I1 => mux:inst22.D1
+I2 => mux:inst21.D1
+Q1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB1b|mux:inst21
+Y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst1.IN0
+Load => inst1.IN1
+Load => in.IN0
+D0 => inst.IN0
+
+
+|LAB1b|mux:inst22
+Y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst1.IN0
+Load => inst1.IN1
+Load => in.IN0
+D0 => inst.IN0
+
+
+|LAB1b|mux:inst23
+Y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst1.IN0
+Load => inst1.IN1
+Load => in.IN0
+D0 => inst.IN0
+
+

@@ -1,0 +1,110 @@
+|RAM
+O3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 2_4WE:inst.AR1
+A0 => 2_4WE:inst.AR0
+I3 => MC:inst3.I3
+I3 => MC:inst60.I3
+I3 => MC:inst5.I3
+I3 => MC:inst4.I3
+RWS => inst7.IN0
+RWS => inst9.IN0
+CS => inst7.IN1
+CS => inst8.IN0
+I2 => MC:inst3.I2
+I2 => MC:inst60.I2
+I2 => MC:inst5.I2
+I2 => MC:inst4.I2
+I1 => MC:inst3.I1
+I1 => MC:inst60.I1
+I1 => MC:inst5.I1
+I1 => MC:inst4.I1
+I0 => MC:inst3.I0
+I0 => MC:inst60.I0
+I0 => MC:inst5.I0
+I0 => MC:inst4.I0
+O2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|MC:inst3
+O3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Select => inst2.IN0
+Select => inst.OE
+Select => inst4.OE
+Select => inst8.OE
+Select => inst12.OE
+W => inst2.IN1
+I3 => inst1.DATAIN
+O2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I2 => inst3.DATAIN
+O1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst6.DATAIN
+O0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst9.DATAIN
+
+
+|RAM|2_4WE:inst
+L3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+AR1 => inst25.IN0
+AR1 => inst1.IN1
+AR1 => inst.IN1
+AR0 => inst26.IN0
+AR0 => inst2.IN2
+AR0 => inst.IN2
+L2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+L1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+L0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|MC:inst60
+O3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Select => inst2.IN0
+Select => inst.OE
+Select => inst4.OE
+Select => inst8.OE
+Select => inst12.OE
+W => inst2.IN1
+I3 => inst1.DATAIN
+O2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I2 => inst3.DATAIN
+O1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst6.DATAIN
+O0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst9.DATAIN
+
+
+|RAM|MC:inst5
+O3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Select => inst2.IN0
+Select => inst.OE
+Select => inst4.OE
+Select => inst8.OE
+Select => inst12.OE
+W => inst2.IN1
+I3 => inst1.DATAIN
+O2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I2 => inst3.DATAIN
+O1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst6.DATAIN
+O0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst9.DATAIN
+
+
+|RAM|MC:inst4
+O3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Select => inst2.IN0
+Select => inst.OE
+Select => inst4.OE
+Select => inst8.OE
+Select => inst12.OE
+W => inst2.IN1
+I3 => inst1.DATAIN
+O2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I2 => inst3.DATAIN
+O1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst6.DATAIN
+O0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst9.DATAIN
+
+

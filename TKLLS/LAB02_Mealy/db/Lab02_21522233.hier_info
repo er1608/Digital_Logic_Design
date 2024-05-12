@@ -1,0 +1,13 @@
+|Lab02_21522233
+O <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+RST => inst.ACLR
+RST => inst1.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+I => inst7.IN2
+I => inst8.IN0
+I => inst4.IN2
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

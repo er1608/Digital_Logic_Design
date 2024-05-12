@@ -1,0 +1,65 @@
+|UP
+O1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S => mx:inst17.S
+S => mx:inst20.S
+S => mx:inst19.S
+S => mx:inst18.S
+S => mx:inst21.S
+S => mx:inst92.S
+CLK => inst10.IN0
+O0 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+O4 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+O5 <= inst55.DB_MAX_OUTPUT_PORT_TYPE
+O6 <= inst66.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UP|mx:inst17
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|UP|mx:inst20
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|UP|mx:inst19
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|UP|mx:inst18
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|UP|mx:inst21
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
+|UP|mx:inst92
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst5.IN0
+S => inst.IN0
+D1 => inst5.IN1
+D0 => inst3.IN1
+
+
